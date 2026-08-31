@@ -7,3 +7,4 @@
 **/.git
 .idea
 **/*.iml
+**/.flattened-pom.xml
