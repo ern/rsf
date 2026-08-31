@@ -51,21 +51,12 @@
   </developers>
   <issueManagement>
     <system>JIRA</system>
-    <url>https://jira.sakaiproject.org/projects/RSF</url>
+    <url>https://sakaiproject.atlassian.net/projects/RSF</url>
   </issueManagement>
   <ciManagement>
-    <system>Jenkins</system>
-    <url>http://builds.sakaiproject.org:8080/view/RSF/job/SakaiRSF/</url>
-    <notifiers>
-      <notifier>
-        <type>mail</type>
-        <sendOnError>true</sendOnError>
-        <sendOnFailure>true</sendOnFailure>
-        <sendOnSuccess>false</sendOnSuccess>
-        <sendOnWarning>false</sendOnWarning>
-      </notifier>
-    </notifiers>
-  </ciManagement>  
+    <system>GitHub Actions</system>
+    <url>https://github.com/rsf/rsf/actions</url>
+  </ciManagement>
   <reporting>
     <plugins>
       <plugin>
