@@ -8,6 +8,9 @@
   </parent>
   <artifactId>rsf-web-test-webapp</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.deploy.skip>true</maven.deploy.skip>
+  </properties>
   <organization>
     <name>CARET</name>
     <url>http://www.caret.cam.ac.uk</url>

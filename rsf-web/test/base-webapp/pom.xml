@@ -7,9 +7,6 @@
     <version>2.0-SNAPSHOT</version>
   </parent>
   <artifactId>rsf-web-test-base-webapp</artifactId>
-  <properties>
-    <deploy.defeat>true</deploy.defeat>
-  </properties>
   <description>
     RSF Components package, packaged for a standard Servlet environment.
   </description>
